@@ -417,6 +417,58 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .site-btn {
   cursor: pointer;
 }
 
+.have-q-section {
+  padding: 100px 0px;
+  background-image: url("../../../images/have-q-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.have-q-section .section-title {
+  text-align: center;
+  color: #fff;
+  font-size: 38px;
+  line-height: 48px;
+  margin-bottom: 40px;
+}
+
+.have-q-section img {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.have-q-section p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  margin-top: 40px;
+}
+
+footer {
+  background: #2d032a;
+  border-top: 1px solid #fff;
+}
+
+footer .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 0px;
+  color: #fff;
+}
+
+footer .footer span a {
+  color: #fff;
+}
+
 body {
   font-family: "Zabal Demo medium", sans-serif;
 }
