@@ -169,7 +169,7 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .site-btn {
 }
 
 .adsFor-busines-section {
-  background-image: url("../../../images/ads-section-bg.svg");
+  background-image: url("../../../images/section-bg-primary.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -242,6 +242,47 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .site-btn {
 
 .offer-section .container .row .adv-illustr-wrapper img {
   max-width: 1000px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.other-serv-offer-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url("../../../images/section-bg-primary.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.other-serv-offer-section .content-wrapper h2 {
+  color: #ffffff;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.other-serv-offer-section .content-wrapper p,
+.other-serv-offer-section .content-wrapper span {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.other-serv-offer-section .content-wrapper p {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.other-serv-offer-section .content-wrapper span {
+  margin-bottom: 40px;
+}
+
+.other-serv-offer-section .img-wrapper {
+  width: 100%;
+}
+
+.other-serv-offer-section .img-wrapper img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
