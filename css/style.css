@@ -168,6 +168,53 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .site-btn {
   margin-bottom: 40px;
 }
 
+.adsFor-busines-section {
+  background-image: url("../../../images/ads-section-bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 130px;
+  padding-bottom: 150px;
+}
+
+.adsFor-busines-section .container .section-title {
+  text-align: center;
+  font-size: 38px;
+  line-height: 48px;
+  color: #ffffff;
+}
+
+.adsFor-busines-section .container .content-wrapper-raw .row .single-box {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 110px;
+}
+
+.adsFor-busines-section .container .content-wrapper-raw .row .single-box img {
+  max-width: 91px;
+  max-height: 91px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.adsFor-busines-section .container .content-wrapper-raw .row .single-box span {
+  font-size: 28px;
+  margin-top: 40px;
+  color: #ffffff;
+}
+
 body {
   font-family: "Zabal Demo medium", sans-serif;
 }

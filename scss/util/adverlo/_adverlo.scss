@@ -104,3 +104,46 @@ header {
     }
   }
 }
+
+// adsFor-busines-section start
+
+.adsFor-busines-section {
+  background-image: url("../../../images/ads-section-bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 130px;
+  padding-bottom: 150px;
+  .container {
+    .section-title {
+      text-align: center;
+      font-size: 38px;
+      line-height: 48px;
+      color: $site-primary-color;
+    }
+    .content-wrapper-raw {
+      //   margin-top: 130px;
+      .row {
+        .single-box {
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+          margin-top: 110px;
+          img {
+            max-width: 91px;
+            max-height: 91px;
+            object-fit: cover;
+          }
+          span {
+            font-size: 28px;
+            margin-top: 40px;
+            color: $site-primary-color;
+          }
+        }
+      }
+    }
+  }
+}
