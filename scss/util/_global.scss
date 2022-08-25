@@ -25,3 +25,10 @@ button {
     outline: none;
   }
 }
+.btn-wrapper {
+  margin-top: 40px;
+  .site-btn {
+    @include site-btn;
+    background-color: $site-blue-color;
+  }
+}

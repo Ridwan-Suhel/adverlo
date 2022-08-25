@@ -44,6 +44,21 @@ button:focus {
   outline: none;
 }
 
+.btn-wrapper {
+  margin-top: 40px;
+}
+
+.btn-wrapper .site-btn {
+  background-color: #f03a9e;
+  padding: 22px 30px;
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 80px;
+  font-family: "Zabal Demo medium", sans-serif;
+  font-size: 18px;
+  background-color: #7423c6;
+}
+
 header {
   position: absolute;
   top: 0px;
@@ -85,12 +100,6 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .site-btn {
 }
 
 .hero-section {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  margin: 0 auto;
-  width: 100%;
   background-image: url("../../../images/hero-bg.svg");
   background-size: cover;
   background-position: center;
@@ -119,21 +128,6 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .site-btn {
   line-height: 34px;
 }
 
-.hero-section .container .hero-content-area .btn-wrapper {
-  margin-top: 40px;
-}
-
-.hero-section .container .hero-content-area .btn-wrapper .site-btn {
-  background-color: #f03a9e;
-  padding: 22px 30px;
-  display: inline-block;
-  color: #ffffff;
-  border-radius: 80px;
-  font-family: "Zabal Demo medium", sans-serif;
-  font-size: 18px;
-  background-color: #7423c6;
-}
-
 .hero-section .container .img-wrapper {
   width: 100%;
 }
@@ -142,6 +136,36 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .site-btn {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.why-adverlo-section {
+  padding-top: 40px;
+  padding-bottom: 120px;
+}
+
+.why-adverlo-section .row .img-wrapper {
+  width: 100%;
+}
+
+.why-adverlo-section .row .img-wrapper img {
+  max-width: 576px;
+  max-height: 519px;
+}
+
+.why-adverlo-section .row .content-wrapper h4 {
+  font-size: 38px;
+  color: #000;
+}
+
+.why-adverlo-section .row .content-wrapper p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.why-adverlo-section .row .content-wrapper p:last-child {
+  margin-top: 15px;
+  margin-bottom: 40px;
 }
 
 body {
