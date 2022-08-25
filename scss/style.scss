@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Zabal Demo light";
+  src: url("../fonts/FontsFree-Net-ZabalDEMO-Light.ttf");
+}
+@font-face {
+  font-family: "Zabal Demo medium";
+  src: url("../fonts/FontsFree-Net-ZabalDEMO-Medium.ttf");
+}
+@font-face {
+  font-family: "Zabal Demo bold";
+  src: url("../fonts/FontsFree-Net-ZabalDEMO-Bold.ttf");
+}
+@import "util/index";
+body {
+  font-family: "Zabal Demo medium", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Zabal Demo bold", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

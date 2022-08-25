@@ -1,0 +1,18 @@
+@mixin site-btn {
+  background-color: $site-pink-color;
+  padding: 22px 30px;
+  display: inline-block;
+  color: $site-primary-color;
+  border-radius: 80px;
+  font-family: "Zabal Demo medium", sans-serif;
+  font-size: 18px;
+}
+// @mixin site-btn {
+//   background-color: $site-blue-color;
+//   padding: 22px 30px;
+//   display: inline-block;
+//   color: $site-primary-color;
+//   border-radius: 80px;
+//   font-family: "Zabal Demo medium", sans-serif;
+//   font-size: 18px;
+// }

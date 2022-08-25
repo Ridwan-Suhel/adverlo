@@ -1,0 +1,163 @@
+@font-face {
+  font-family: "Zabal Demo light";
+  src: url("../fonts/FontsFree-Net-ZabalDEMO-Light.ttf");
+}
+
+@font-face {
+  font-family: "Zabal Demo medium";
+  src: url("../fonts/FontsFree-Net-ZabalDEMO-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Zabal Demo bold";
+  src: url("../fonts/FontsFree-Net-ZabalDEMO-Bold.ttf");
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 2;
+  padding: 25px 0px;
+}
+
+header .navbar .navbar-brand img {
+  height: 56px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header .navbar .navbar-collapse .navbar-nav {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-item a {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-item .site-btn {
+  background-color: #f03a9e;
+  padding: 22px 30px;
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 80px;
+  font-family: "Zabal Demo medium", sans-serif;
+  font-size: 18px;
+  background-color: #f03a9e;
+}
+
+.hero-section {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
+  width: 100%;
+  background-image: url("../../../images/hero-bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 140px;
+}
+
+.hero-section .container .row {
+  padding-top: 100px;
+}
+
+.hero-section .container .hero-content-area .text-wrapper h1 {
+  font-size: 67px;
+  line-height: 80px;
+  color: #ffffff;
+}
+
+.hero-section .container .hero-content-area .text-wrapper .sub-title {
+  margin: 30px 0px 20px 0px;
+}
+
+.hero-section .container .hero-content-area .text-wrapper p {
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 34px;
+}
+
+.hero-section .container .hero-content-area .btn-wrapper {
+  margin-top: 40px;
+}
+
+.hero-section .container .hero-content-area .btn-wrapper .site-btn {
+  background-color: #f03a9e;
+  padding: 22px 30px;
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 80px;
+  font-family: "Zabal Demo medium", sans-serif;
+  font-size: 18px;
+  background-color: #7423c6;
+}
+
+.hero-section .container .img-wrapper {
+  width: 100%;
+}
+
+.hero-section .container .img-wrapper img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body {
+  font-family: "Zabal Demo medium", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Zabal Demo bold", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */
