@@ -1807,6 +1807,21 @@ footer .footer span a {
 }
 
 @media screen and (max-width: 991px) {
+  header {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0px !important;
+    left: 0px !important;
+    right: 0px !important;
+    width: 100% !important;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    background: #330842;
+  }
+  header nav {
+    padding: 0px 0px !important;
+  }
   .navbar-collapse {
     display: none;
   }
