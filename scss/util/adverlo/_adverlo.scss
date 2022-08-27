@@ -1,4 +1,4 @@
-.header {
+header {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -34,17 +34,7 @@
     }
   }
 }
-header#sticky-header.sticky {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  background: #071923ce;
-  backdrop-filter: blur(7px);
-  padding-top: 3px;
-  padding-bottom: 3px;
-  border-bottom: 1px solid rgba(221, 221, 221, 0.267);
-}
+
 // hero section start
 .hero-section {
   background-image: url("../../../images/hero-bg.svg");
