@@ -32,6 +32,56 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
+
+          <!-- off canvas menu  -->
+          <button
+            class="offcanv-menu"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions"
+            aria-controls="offcanvasWithBothOptions"
+          >
+            <img src="images/navbar.png" />
+          </button>
+          <!-- off canvas menu end -->
+
+          <!-- offcanvas menu nav  -->
+          <div
+            class="offcanvas offcanvas-start"
+            data-bs-scroll="true"
+            tabindex="-1"
+            id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+                <img src="images/logo/Adverlo-C1.png" />
+              </h5>
+              <button
+                type="button"
+                class="btn-close canvClose"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#"
+                    >Why Adverlo?</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link site-btn" href="#">Speak To Our Team</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- offcanvas menu nav  -->
+
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -1139,8 +1189,8 @@
           <div class="col-md-12 col-lg-6">
             <div class="why-adv-content-area">
               <div class="content-wrapper">
-                <h4>Why Adverlo?</h4>
-                <p>
+                <h4 class="title-anim">Why Adverlo?</h4>
+                <p class="">
                   Adverlo is completely devoted to creating the best experience
                   for our clients by delivering ad campaigns that work. Ads are
                   essential in the current climate. You can't afford NOT to have
@@ -1163,51 +1213,51 @@
     <!-- adsFor-busines-section start  -->
     <section class="adsFor-busines-section">
       <div class="container">
-        <h2 class="section-title">
+        <h2 class="section-title section-title1">
           Ads For Businesses <br />
           And Brands All Over The World
         </h2>
         <div class="row justify-content-center content-wrapper-raw">
           <div class="col-md-12 col-lg-8">
-            <div class="row">
+            <div class="row singlebox-raw-wrapper">
               <!-- single col box  -->
               <div class="col-4 col-lg-4">
-                <div class="single-box">
+                <div class="single-box single-boxanim1">
                   <img src="images/ads-icon/ads-icon-1.png" alt="" />
                   <span>Ecomerce</span>
                 </div>
               </div>
               <!-- single col box  -->
               <div class="col-4 col-lg-4">
-                <div class="single-box">
+                <div class="single-box single-boxanim1">
                   <img src="images/ads-icon/ads-icon-2.png" alt="" />
                   <span>Info Products</span>
                 </div>
               </div>
               <!-- single col box  -->
               <div class="col-4 col-lg-4">
-                <div class="single-box">
+                <div class="single-box single-boxanim1">
                   <img src="images/ads-icon/ads-icon-3.png" alt="" />
                   <span>Your Business</span>
                 </div>
               </div>
               <!-- single col box  -->
               <div class="col-4 col-lg-4">
-                <div class="single-box">
+                <div class="single-box single-boxanim1">
                   <img src="images/ads-icon/ads-icon-4.png" alt="" />
                   <span>Tech</span>
                 </div>
               </div>
               <!-- single col box  -->
               <div class="col-4 col-lg-4">
-                <div class="single-box">
+                <div class="single-box single-boxanim1">
                   <img src="images/ads-icon/ads-icon-5.png" alt="" />
                   <span>Healthcare</span>
                 </div>
               </div>
               <!-- single col box  -->
               <div class="col-4 col-lg-4">
-                <div class="single-box">
+                <div class="single-box single-boxanim1">
                   <img src="images/ads-icon/ads-icon-6.png" alt="" />
                   <span>General Services</span>
                 </div>
@@ -1216,14 +1266,21 @@
           </div>
         </div>
       </div>
+
+      <div class="shape">
+        <img src="images/shape-1.svg" />
+      </div>
+      <div class="shape2">
+        <img src="images/shape-2.svg" />
+      </div>
     </section>
     <!-- we offer-section start  -->
     <section class="offer-section">
       <div class="container">
         <div class="row justify-content-center content-wrapper-raw">
           <div class="col-lg-8">
-            <h2 class="section-title">What Do We Offer?</h2>
-            <div class="adv-img-wrapper">
+            <h2 class="section-title section-title2">What Do We Offer?</h2>
+            <div class="adv-img-wrapper adv-img-svg1">
               <!-- <img src="images/adv/advertising-img-1.svg" alt="" /> -->
               <svg
                 width="245"
@@ -1348,7 +1405,7 @@
                 </defs>
               </svg>
             </div>
-            <div class="adv-illustr-wrapper">
+            <div class="adv-illustr-wrapper adv-img-svg2">
               <!-- <img src="images/adv/advertising-img-2.svg" alt="" /> -->
               <svg
                 height="237"
@@ -6076,12 +6133,12 @@
         <div class="row">
           <div class="col-md-12 col-lg-6">
             <div class="content-area">
-              <div class="content-wrapper">
-                <h2>
+              <div class="content-wrapper other-serv-offer-content-wrapper">
+                <h2 class="animT">
                   What Other <br />
                   Services Do We Offer?
                 </h2>
-                <p>
+                <p class="animT">
                   <strong>None.</strong> We're good at ads, so we'll stick with
                   ads. Other agencies will try and hand out an entire menu of
                   services for you to choose from, but we'll give you a single
@@ -6092,13 +6149,13 @@
                   standards.
                 </p>
 
-                <span
+                <span class="animT"
                   >If you want good ads, we're here for you. It's what we
                   do.</span
                 >
               </div>
 
-              <div class="btn-wrapper">
+              <div class="btn-wrapper animT">
                 <button class="site-btn">Speak To Our Team</button>
               </div>
             </div>
@@ -6505,13 +6562,19 @@
           </div>
         </div>
       </div>
+      <div class="shape">
+        <img src="images/shape-1.svg" />
+      </div>
+      <div class="shape2">
+        <img src="images/shape-2.svg" />
+      </div>
     </section>
-    <!-- sale-busines-section start  -->
+    <!-- scale-busines-section start  -->
     <section class="sale-busines-section">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-12 col-lg-8">
-            <div class="img-wrapper">
+            <div class="img-wrapper svgfalgWave">
               <!-- <img src="images/sale-buiss-illus.svg" alt="" /> -->
               <svg
                 width="911"
@@ -8720,15 +8783,15 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-12 col-lg-8">
-            <div class="section-title">
-              <h2>Meet The A-Team</h2>
-              <p>
+            <div class="section-title meetAteam-section-contnt-wrapper">
+              <h2 class="animT2">Meet The A-Team</h2>
+              <p class="animT2">
                 Founded by Yoji Selman who's spent the past five years building
                 social media brands while amassing hundreds of thousands of
                 followers for his clients, Adverlo has assembled a team
                 well-suited for the digital marketing growth of its clients.
               </p>
-              <p>
+              <p class="animT2">
                 Equipped with the skillset to scale brands and businesses,
                 Adverlo's team is more than capable of fulfilling your marketing
                 needs.
@@ -8737,7 +8800,7 @@
             <div class="row team-member-wrapper">
               <!-- single-col box  -->
               <div class="col-4 col-sm-4 col-md-4">
-                <div class="single-box">
+                <div class="single-box single-boxanim2">
                   <img src="images/man-1.png" alt="" />
                   <h3>Yoji Selman</h3>
                   <span>Founder</span>
@@ -8745,7 +8808,7 @@
               </div>
               <!-- single-col box  -->
               <div class="col-4 col-sm-4 col-md-4">
-                <div class="single-box">
+                <div class="single-box single-boxanim2">
                   <img src="images/man-2.png" alt="" />
                   <h3>Ayeesha Mae</h3>
                   <span>Chief Marketing Officer</span>
@@ -8753,7 +8816,7 @@
               </div>
               <!-- single-col box  -->
               <div class="col-4 col-sm-4 col-md-4">
-                <div class="single-box">
+                <div class="single-box single-boxanim2">
                   <img src="images/man-3.png" alt="" />
                   <h3>Julie Ocular</h3>
                   <span>Copywriter</span>
@@ -8762,6 +8825,12 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="shape">
+        <img src="images/shape-1.svg" />
+      </div>
+      <div class="shape2">
+        <img src="images/shape-2.svg" />
       </div>
     </section>
     <!-- meeting-section strart  -->
@@ -8773,15 +8842,19 @@
               <div class="col-md-12 col-lg-6">
                 <div class="meeting-box-area">
                   <div class="box-top">
-                    <img src="images/meeting-icon.png" alt="meeting" />
-                    <span class="name">Esther Howard</span>
+                    <img
+                      class="anim3"
+                      src="images/meeting-icon.png"
+                      alt="meeting"
+                    />
+                    <span class="name anim3">Esther Howard</span>
                   </div>
-                  <p class="title">1-On-1 Meeting</p>
-                  <p class="sub-title">
+                  <p class="title anim3">1-On-1 Meeting</p>
+                  <p class="sub-title anim3">
                     Schedule your 30-Minute Call with Yoji
                   </p>
                   <div class="content">
-                    <p>
+                    <p class="anim3">
                       Everything you need to know about working with Adverlo
                       will be explained in this call with our founder. We will
                       be able to have a clear understanding of the goals you
@@ -8789,7 +8862,7 @@
                       call, you will be shown case studies of the different
                       successes Adverlo has created for its clients.
                     </p>
-                    <p>
+                    <p class="anim3">
                       Find a time on the calendar that works for you, so you'll
                       be able to start your adventure with Adverlo.
                     </p>
@@ -8811,9 +8884,10 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-12 col-lg-7">
-            <h2 class="section-title">Have Any Questions?</h2>
+            <h2 class="section-title anim4">Have Any Questions?</h2>
             <!-- <img src="images/have-q-illustr.svg" alt="" /> -->
             <svg
+              class="anim4"
               width="778"
               height="341"
               viewBox="0 0 778 341"
@@ -10336,7 +10410,7 @@
               />
             </svg>
 
-            <p>
+            <p class="anim4">
               If you have any inquiries and would like to speak directly to our
               team, feel free to contact us via email at: hello@adverlo.com
             </p>
@@ -10358,5 +10432,22 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"
+      integrity="sha512-GQ5/eIhs41UXpG6fGo4xQBpwSEj9RrBvMuKyE2h/2vw3a9x85T1Bt0JglOUVJJLeyIUl/S/kCdDXlE/n7zCjIg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollToPlugin.min.js"
+      integrity="sha512-TxuhgzYZZCsKL8STS5wmzau5RF3EotX6lAOZPkOJwfy7q9fXMzhlEHfQI4iUuxVMgkbG5XUtzbjshNCKYL+VXw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script> -->
+    <!------ gsap----------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <!------ gsap scroll trigger----------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

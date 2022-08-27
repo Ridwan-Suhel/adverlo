@@ -327,6 +327,39 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .site-btn {
   background-repeat: no-repeat;
   padding-top: 130px;
   padding-bottom: 150px;
+  position: relative;
+  overflow: hidden;
+}
+
+.adsFor-busines-section .shape {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-animation: moveShape 10s linear infinite alternate;
+          animation: moveShape 10s linear infinite alternate;
+}
+
+.adsFor-busines-section .shape img {
+  width: 100%;
+}
+
+.adsFor-busines-section .shape2 {
+  width: 200px;
+  height: 293px;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  -webkit-animation: moveShape2 7s linear infinite alternate;
+          animation: moveShape2 7s linear infinite alternate;
+}
+
+.adsFor-busines-section .shape2 img {
+  width: 200px;
+  height: 293px;
 }
 
 .adsFor-busines-section .container .section-title {
@@ -406,6 +439,39 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .site-btn {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.other-serv-offer-section .shape {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-animation: moveShape 10s linear infinite alternate;
+          animation: moveShape 10s linear infinite alternate;
+}
+
+.other-serv-offer-section .shape img {
+  width: 100%;
+}
+
+.other-serv-offer-section .shape2 {
+  width: 200px;
+  height: 293px;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  -webkit-animation: moveShape2 7s linear infinite alternate;
+          animation: moveShape2 7s linear infinite alternate;
+}
+
+.other-serv-offer-section .shape2 img {
+  width: 200px;
+  height: 293px;
 }
 
 .other-serv-offer-section .content-wrapper h2 {
@@ -442,6 +508,8 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .site-btn {
 
 .sale-busines-section {
   padding-top: 100px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .sale-busines-section .img-wrapper svg {
@@ -455,6 +523,43 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .site-btn {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.meetAteam-section .shape {
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 20%;
+  left: 0px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 5;
+  -webkit-animation: moveShape 10s linear infinite alternate;
+          animation: moveShape 10s linear infinite alternate;
+}
+
+.meetAteam-section .shape img {
+  width: 100%;
+}
+
+.meetAteam-section .shape2 {
+  width: 200px;
+  height: 293px;
+  position: absolute;
+  top: 30%;
+  right: 0px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 5;
+  -webkit-animation: moveShape2 6s linear infinite alternate;
+          animation: moveShape2 6s linear infinite alternate;
+}
+
+.meetAteam-section .shape2 img {
+  width: 200px;
+  height: 293px;
 }
 
 .meetAteam-section .container .section-title {
@@ -1475,6 +1580,50 @@ footer .footer span a {
   100% {
     -webkit-transform: rotateZ(1.5deg);
             transform: rotateZ(1.5deg);
+  }
+}
+
+@-webkit-keyframes moveShape {
+  0% {
+    -webkit-transform: translate(0px) rotate(0deg);
+            transform: translate(0px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(-40px) rotate(-20deg);
+            transform: translate(-40px) rotate(-20deg);
+  }
+}
+
+@keyframes moveShape {
+  0% {
+    -webkit-transform: translate(0px) rotate(0deg);
+            transform: translate(0px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(-40px) rotate(-20deg);
+            transform: translate(-40px) rotate(-20deg);
+  }
+}
+
+@-webkit-keyframes moveShape2 {
+  0% {
+    -webkit-transform: translate(0px) rotate(0deg);
+            transform: translate(0px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(40px) rotate(20deg);
+            transform: translate(40px) rotate(20deg);
+  }
+}
+
+@keyframes moveShape2 {
+  0% {
+    -webkit-transform: translate(0px) rotate(0deg);
+            transform: translate(0px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(40px) rotate(20deg);
+            transform: translate(40px) rotate(20deg);
   }
 }
 

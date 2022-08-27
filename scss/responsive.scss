@@ -244,7 +244,52 @@
     }
   }
 }
+@media screen and (min-width: 991px) {
+  .offcanv-menu {
+    display: none;
+  }
+  .offcanvas-start {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 991px) {
+  .navbar-collapse {
+    display: none;
+  }
+  .navbar-toggler {
+    display: none;
+  }
+
+  .offcanvas-header {
+    img {
+      width: 98px;
+    }
+  }
+  .offcanvas {
+    background: #330842;
+    .canvClose {
+      -webkit-filter: invert(100%);
+      filter: invert(100%);
+    }
+
+    ul {
+      li {
+        margin-top: 20px;
+        text-align: center;
+        a {
+          color: #fff;
+        }
+        .site-btn {
+          padding: 14px 20px;
+          background-color: $site-pink-color !important;
+          display: inline-block;
+          border-radius: 50px;
+        }
+      }
+    }
+  }
+
   .sale-busines-section {
     .img-wrapper {
       svg {
@@ -657,6 +702,32 @@
 
     span {
       margin-top: 15px;
+    }
+  }
+
+  .shape {
+    width: 90px !important;
+    width: 90px !important;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    // z-index: 5;
+    animation: moveShape 10s linear infinite alternate;
+    img {
+      width: 90px !important;
+    }
+  }
+  .shape2 {
+    width: 90px !important;
+    width: 90px !important;
+    top: 0;
+    right: 0px;
+    // transform: translateY(-50%);
+    // z-index: 5;
+    animation: moveShape2 7s linear infinite alternate;
+    img {
+      width: 90px !important;
+      height: 90px !important;
     }
   }
   //   end media 575
