@@ -43,7 +43,7 @@ button:focus {
   background-color: #7423c6;
 }
 
-header {
+.header {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -51,28 +51,30 @@ header {
   margin: 0 auto;
   width: 100%;
   z-index: 2;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   padding: 25px 0px;
 }
 
-header .navbar .navbar-brand img {
+.header .navbar .navbar-brand img {
   height: 56px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-header .navbar .navbar-collapse .navbar-nav {
+.header .navbar .navbar-collapse .navbar-nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   gap: 15px;
 }
 
-header .navbar .navbar-collapse .navbar-nav .nav-item a {
+.header .navbar .navbar-collapse .navbar-nav .nav-item a {
   color: #ffffff;
   font-size: 20px;
 }
 
-header .navbar .navbar-collapse .navbar-nav .nav-item .site-btn {
+.header .navbar .navbar-collapse .navbar-nav .nav-item .site-btn {
   padding: 22px 30px;
   display: inline-block;
   color: #ffffff;
@@ -80,6 +82,19 @@ header .navbar .navbar-collapse .navbar-nav .nav-item .site-btn {
   font-family: "Zabal Demo medium", sans-serif;
   font-size: 18px;
   background-color: #f03a9e;
+}
+
+header#sticky-header.sticky {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: #071923ce;
+  -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid rgba(221, 221, 221, 0.267);
 }
 
 .hero-section {

@@ -1,4 +1,13 @@
-// const tl = gsap.timeline();
+$(window).on("scroll", function () {
+  var scroll = $(window).scrollTop();
+  if (scroll < 1) {
+    $("#sticky-header").removeClass("sticky");
+  } else {
+    $("#sticky-header").addClass("sticky");
+  }
+});
+
+// gsap animation
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.from(".why-adv-content-area .content-wrapper", {
@@ -162,6 +171,19 @@ gsap.from(".anim4", {
   scrollTrigger: {
     trigger: ".have-q-section",
     toggleActions: "restart none none pause",
+    // start: "20% bottom",
+  },
+});
+gsap.from(".textAnim1", {
+  duration: 0.6,
+  opacity: 0,
+  y: 100,
+  stagger: 0.2,
+  delay: 1,
+
+  scrollTrigger: {
+    trigger: ".hero-content-area",
+    toggleActions: "play none none none",
     // start: "20% bottom",
   },
 });
